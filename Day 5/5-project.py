@@ -11,7 +11,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 
 # #Eazy Level - Order not randomised:
-# password =''
+password =''
 
 # for char in range(1, nr_letters+1):
 #     password += random.choice(letters)
