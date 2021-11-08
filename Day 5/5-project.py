@@ -10,19 +10,19 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 
-#Eazy Level - Order not randomised:
-password =''
+# #Eazy Level - Order not randomised:
+# password =''
 
-for char in range(1, nr_letters+1):
-    password += random.choice(letters)
+# for char in range(1, nr_letters+1):
+#     password += random.choice(letters)
 
-for symbol in range(1, nr_symbols+ 1):
-    password += random.choice(symbols)
+# for symbol in range(1, nr_symbols+ 1):
+#     password += random.choice(symbols)
 
-for number in range(1, nr_numbers):
-    password += random.choice(numbers)
+# for number in range(1, nr_numbers):
+#     password += random.choice(numbers)
 
-print(f"Easy Password = {password}")
+# print(f"Easy Password = {password}")
 
 
 # Hard Level - Order Randomised
