@@ -1,6 +1,7 @@
 from art import logo, vs
 from game_data import data
 import random
+import os
 
 
 def format_data(account):
@@ -46,6 +47,7 @@ def game():
         is_correct = compare_choice(guess, a_follower_count, b_follower_count)
 
         if is_correct:
+            os.system("cls")
             score +=1
             print(f"You're right! Current Score: {score}")
         else:
