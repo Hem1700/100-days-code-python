@@ -8,9 +8,15 @@
 
 #5. Make sure the input cursor shows on a new line.
 
+import random
 
-print("Welcome to the Band Name Generator.")
-city_name = input("What is the name of the city you grew up in?\n")
-pet_name = input("What is your pet's name?\n")
-print("Your band name could be " + city_name + " " + pet_name + "\n")
 
+def band_name():
+    print("Welcome to the Band Name Generator.")
+    randNum = random.randint(1,1000)
+    city_name = input("What is the name of the city you grew up in?\n")
+    pet_name = input("What is your pet's name?\n")
+    print("Your band name could be " + city_name +pet_name +str(randNum) +"\n")
+
+
+band_name()

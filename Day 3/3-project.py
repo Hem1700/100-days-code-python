@@ -20,26 +20,28 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_____ /
 *******************************************************************************
 ''')
-print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.") 
+def game():
+    print("Welcome to Treasure Island.")
+    print("Your mission is to find the treasure.") 
 
-road = input("You are at a crossroad which way do you want to go? L for left and R for Right ")
-if road == "L":
-    swim = input("There is a lake, do you want to swim or wait for a boat? S for Swim and W for Wait ")
-    if swim == "S":
-        door = input("There are two doors, which one do you prefer? R for Red door, B for Blue door, or Y for Yellow door ")
-        if door == "Y":
-            print("YOU WIN!")
-        elif door == "R":
-            print("You were burnt in fire. GAME OVER!")
-        elif door == "B":
-            print("You were eaten by beasts. GAME OVER!")  
+    road = input("You are at a crossroad which way do you want to go? L for left and R for Right ")
+    if road == "L":
+        swim = input("There is a lake, do you want to swim or wait for a boat? S for Swim and W for Wait ")
+        if swim == "S":
+            door = input("There are two doors, which one do you prefer? R for Red door, B for Blue door, or Y for Yellow door ")
+            if door == "Y":
+                print("YOU WIN!")
+            elif door == "R":
+                print("You were burnt in fire. GAME OVER!")
+            elif door == "B":
+                print("You were eaten by beasts. GAME OVER!")  
+            else:
+                print("GAME OVER!") 
         else:
-            print("GAME OVER!") 
+            print("You were attacked by trout. GAME OVER!")
     else:
-        print("You were attacked by trout. GAME OVER!")
-else:
-    print("Your fell into a hole. GAME OVER!")
+        print("Your fell into a hole. GAME OVER!")
 
 
-   
+game()
+    
