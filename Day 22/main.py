@@ -57,5 +57,9 @@ while game_is_on:
         score.r_point()
         ball.reset_position()
         
+    # end game
+    if score.r_score == 5 or score.l_score == 5:
+        score.end_game()
+        game_is_on = False
 
 screen.exitonclick()
