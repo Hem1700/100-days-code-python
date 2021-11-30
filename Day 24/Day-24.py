@@ -8,6 +8,9 @@ with open('new_file.txt', 'w') as file:
     file.write("\nNew text.")
 
 
+# Understanding relative and absolute file path
+# Absolute File Path - starts from root 
+# Relative File Path 
 
 
 
