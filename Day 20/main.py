@@ -1,7 +1,5 @@
 from turtle import Screen
 import time
-import turtle
-from typing import SupportsComplex
 from snake import Snake
 from food import Food
 from scoreboard import ScoreBoard
